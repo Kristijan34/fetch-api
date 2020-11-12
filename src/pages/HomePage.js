@@ -64,7 +64,7 @@ class HomePage extends Component {
 				{users.map((user) => (
 					<tr key={user.id}>
 						<td>
-							<NavLink to={`/posts/${user.id}`}>
+							<NavLink to={`/users/${user.id}`}>
 								{user.name}
 							</NavLink>
 							<button
